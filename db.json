@@ -1,0 +1,682 @@
+{
+  "products": [
+    {
+      "id": 12,
+      "name": "Ahsani Vco virgin coconut oil",
+      "category": "VCO",
+      "description": "Nutrisi khusus untuk mata cemerlang. Kaya akan antosianin (antioksidan kuat) yang secara spesifik bekerja melancarkan aliran darah ke retina mata. Sangat disarankan bagi penderita mata minus (miopia), katarak, glaukoma, serta bagi Anda yang bekerja di depan layar komputer berjam-jam.",
+      "price": 30000,
+      "rating": 4.8,
+      "reviews": 220,
+      "image": "/products/capsule.png",
+      "tags": [],
+      "ingredients": [
+        "Bilberry"
+      ],
+      "stock": 10,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "125 ml",
+          "price": 30000
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Albumin azzayan",
+      "category": "Albumin/Kutuk",
+      "description": "Kapsul ekstrak Ikan Gabus (Channa striata) murni yang diformulasikan khusus untuk mempercepat proses penyembuhan luka pasca operasi (termasuk caesar), luka bakar, dan luka diabetes. Sangat efektif untuk meningkatkan kadar albumin dalam darah, memperbaiki gizi buruk, dan mengurangi pembengkakan (edema).",
+      "price": 39000,
+      "rating": 4.9,
+      "reviews": 210,
+      "image": "/products/capsule.png",
+      "tags": [
+        "Penyembuhan Luka"
+      ],
+      "ingredients": [
+        "Ekstrak Ikan Gabus"
+      ],
+      "stock": 7,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "60 kapsul",
+          "price": 39000
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Albumin fit",
+      "category": "Albumin/Kutuk",
+      "description": "Suplemen kesehatan andalan keluarga yang terbuat dari sari pati Ikan Gabus liar. Mengandung protein albumin kualitas tinggi yang esensial untuk regenerasi sel tubuh, meningkatkan daya tahan tubuh secara keseluruhan, serta membantu pemulihan kondisi tubuh setelah sakit parah atau rawat inap.",
+      "price": 45000,
+      "rating": 4.7,
+      "reviews": 185,
+      "image": "/products/capsule.png",
+      "tags": [
+        "Populer"
+      ],
+      "ingredients": [
+        "Ekstrak Ikan Gabus"
+      ],
+      "stock": 22,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "60 kapsul",
+          "price": 45000
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Binahong inayah",
+      "category": "Herbal",
+      "description": "Minyak Kelapa Murni (VCO) kualitas premium yang diekstraksi dari kelapa segar pilihan tanpa melalui pemanasan tinggi (cold-pressed). Kaya akan asam laurat yang sangat baik untuk meningkatkan sistem kekebalan tubuh, menjaga kesehatan jantung, melancarkan pencernaan, serta dapat digunakan untuk perawatan kulit dan rambut agar lebih lembab dan sehat.",
+      "price": 45000,
+      "rating": 4.8,
+      "reviews": 156,
+      "image": "/products/vco.png",
+      "tags": [
+        "Terlaris",
+        "Alami"
+      ],
+      "ingredients": [
+        "VCO"
+      ],
+      "stock": 9,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "60 kapsul",
+          "price": 45000
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Carmint",
+      "category": "Herbal",
+      "description": "Permen/kapsul herbal penyegar napas dan pereda gangguan pencernaan. Dengan kandungan ekstrak daun mint alami, Carmint membantu meredakan perut kembung, mual, dan masuk angin. Memberikan sensasi dingin yang melegakan tenggorokan dan menjaga napas tetap segar sepanjang hari.",
+      "price": 18500,
+      "rating": 4.5,
+      "reviews": 320,
+      "image": "/products/capsule.png",
+      "tags": [],
+      "ingredients": [
+        "Mint"
+      ],
+      "stock": 12,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "15 kapsul",
+          "price": 18500
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Daun Katuk",
+      "category": "Herbal",
+      "description": "Kapsul Kutuk murni yang diproses dengan teknologi ekstraksi suhu rendah untuk menjaga keutuhan protein albumin. Menjadi pilihan utama dokter dan tenaga medis sebagai terapi pendamping untuk pasien pasca operasi agar luka jahitan cepat kering dan terhindar dari infeksi.",
+      "price": 35000,
+      "rating": 4.7,
+      "reviews": 140,
+      "image": "/products/capsule.png",
+      "tags": [
+        "Penyembuhan Luka"
+      ],
+      "ingredients": [
+        "Ekstrak Ikan Gabus"
+      ],
+      "stock": 6,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "60 kapsul",
+          "price": 35000
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Eye Care",
+      "category": "Vitamin",
+      "description": "Formula komprehensif untuk memelihara kesehatan mata di era digital. Mengandung ekstrak bilberry, lutein, dan vitamin A yang sangat baik untuk mengurangi mata lelah akibat paparan sinar biru (blue light) dari gadget, mempertajam penglihatan di malam hari, dan mencegah kerusakan makula pada mata.",
+      "price": 55000,
+      "rating": 4.8,
+      "reviews": 112,
+      "image": "/products/capsule.png",
+      "tags": [
+        "Kesehatan Mata"
+      ],
+      "ingredients": [
+        "Bilberry",
+        "Lutein"
+      ],
+      "stock": 6,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "60 kapsul",
+          "price": 55000
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Gold G",
+      "category": "Herbal",
+      "description": "Legenda penyembuhan dari laut. Sirup herbal kental yang terbuat dari ekstrak Teripang Emas (Stichopus variegatus) pilihan. Mengandung kolagen, mukopolisakarida, dan cell growth factor yang sangat ampuh untuk mengatasi masalah persendian (osteoarthritis), maag kronis, asam lambung, serta mempercepat regenerasi sel pada luka diabetes.",
+      "price": 40000,
+      "rating": 5,
+      "reviews": 580,
+      "image": "/products/syrup.png",
+      "tags": [
+        "Premium",
+        "Terlaris"
+      ],
+      "ingredients": [
+        "Teripang Emas"
+      ],
+      "stock": 3,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "100 ml",
+          "price": 40000
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Gold G",
+      "category": "Herbal",
+      "description": "Legenda penyembuhan dari laut. Sirup herbal kental yang terbuat dari ekstrak Teripang Emas (Stichopus variegatus) pilihan. Mengandung kolagen, mukopolisakarida, dan cell growth factor yang sangat ampuh untuk mengatasi masalah persendian (osteoarthritis), maag kronis, asam lambung, serta mempercepat regenerasi sel pada luka diabetes.",
+      "price": 125000,
+      "rating": 5,
+      "reviews": 580,
+      "image": "/products/syrup.png",
+      "tags": [
+        "Premium",
+        "Terlaris"
+      ],
+      "ingredients": [
+        "Teripang Emas"
+      ],
+      "stock": 0,
+      "status": "Out of Stock",
+      "variations": [
+        {
+          "size": "320ml",
+          "price": 125000
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Habbasy Trigona",
+      "category": "Habbatusauda",
+      "description": "Formula komprehensif untuk memelihara kesehatan mata di era digital. Mengandung ekstrak bilberry, lutein, dan vitamin A yang sangat baik untuk mengurangi mata lelah akibat paparan sinar biru (blue light) dari gadget, mempertajam penglihatan di malam hari, dan mencegah kerusakan makula pada mata.",
+      "price": 40000,
+      "rating": 4.8,
+      "reviews": 112,
+      "image": "/products/capsule.png",
+      "tags": [
+        "Kesehatan Mata"
+      ],
+      "ingredients": [
+        "Bilberry",
+        "Lutein"
+      ],
+      "stock": 8,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "100 kapsul",
+          "price": 40000
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Habbasyi Propolis Trigona",
+      "category": "Habbatusauda",
+      "description": "Varian premium dari kombinasi Habbatussauda, Madu, Zaitun, dan Propolis Trigona. Diolah dengan teknologi modern untuk menghasilkan ekstrak cair dalam kapsul (softgel) sehingga lebih mudah diserap oleh tubuh. Solusi lengkap untuk detoksifikasi racun, menormalkan tekanan darah, dan meningkatkan vitalitas.",
+      "price": 65000,
+      "rating": 4.9,
+      "reviews": 310,
+      "image": "/products/capsule.png",
+      "tags": [
+        "Premium"
+      ],
+      "ingredients": [
+        "Habbatussauda",
+        "Propolis",
+        "Zaitun",
+        "Madu"
+      ],
+      "stock": 0,
+      "status": "Out of Stock",
+      "variations": [
+        {
+          "size": "100 kapsul",
+          "price": 65000
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Kapsul Angkak Inayah",
+      "category": "Herbal",
+      "description": "Solusi alami untuk demam berdarah (DBD) dan tifus. Angkak (Red Yeast Rice) telah terbukti ampuh secara medis maupun empiris untuk menaikkan kadar trombosit darah secara cepat. Selain itu, kapsul ini juga membantu menurunkan kolesterol jahat (LDL) dan melancarkan sirkulasi darah dalam tubuh.",
+      "price": 35000,
+      "rating": 4.8,
+      "reviews": 165,
+      "image": "/products/capsule.png",
+      "tags": [],
+      "ingredients": [
+        "Angkak"
+      ],
+      "stock": 6,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "60 kapsul",
+          "price": 35000
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Kapsul Bilbery",
+      "category": "Herbal",
+      "description": "Nutrisi khusus untuk mata cemerlang. Kaya akan antosianin (antioksidan kuat) yang secara spesifik bekerja melancarkan aliran darah ke retina mata. Sangat disarankan bagi penderita mata minus (miopia), katarak, glaukoma, serta bagi Anda yang bekerja di depan layar komputer berjam-jam.",
+      "price": 42000,
+      "rating": 4.8,
+      "reviews": 220,
+      "image": "/products/capsule.png",
+      "tags": [],
+      "ingredients": [
+        "Bilberry"
+      ],
+      "stock": 3,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "50 kapsul",
+          "price": 42000
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Kutuk swamp",
+      "category": "Albumin/Kutuk",
+      "description": "Permen/kapsul herbal penyegar napas dan pereda gangguan pencernaan. Dengan kandungan ekstrak daun mint alami, Carmint membantu meredakan perut kembung, mual, dan masuk angin. Memberikan sensasi dingin yang melegakan tenggorokan dan menjaga napas tetap segar sepanjang hari.",
+      "price": 45000,
+      "rating": 4.5,
+      "reviews": 320,
+      "image": "/products/capsule.png",
+      "tags": [],
+      "ingredients": [
+        "Mint"
+      ],
+      "stock": 20,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "60 kapsul",
+          "price": 45000
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Minyak Kutus kutus",
+      "category": "Oil",
+      "description": "Minyak balur ajaib asli Bali yang diramu dari 69 jenis tanaman herbal berkhasiat. Bekerja dengan cara mengaktifkan energi penyembuhan alami tubuh (Chi/Prana). Sangat efektif untuk mengatasi pegal linu, asam urat, gangguan pencernaan, sakit kepala, hingga insomnia. Aman untuk bayi hingga lansia.",
+      "price": 155000,
+      "rating": 5,
+      "reviews": 890,
+      "image": "/products/syrup.png",
+      "tags": [
+        "Terlaris",
+        "Premium"
+      ],
+      "ingredients": [
+        "69 Tanaman Herbal"
+      ],
+      "stock": 1,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "125 ml",
+          "price": 155000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Neo Alfabumin",
+      "category": "Albumin/Kutuk",
+      "description": "Kapsul ekstrak Ikan Gabus (Channa striata) murni yang diformulasikan khusus untuk mempercepat proses penyembuhan luka pasca operasi (termasuk caesar), luka bakar, dan luka diabetes. Sangat efektif untuk meningkatkan kadar albumin dalam darah, memperbaiki gizi buruk, dan mengurangi pembengkakan (edema).",
+      "price": 45000,
+      "rating": 4.9,
+      "reviews": 210,
+      "image": "/products/capsule.png",
+      "tags": [
+        "Penyembuhan Luka"
+      ],
+      "ingredients": [
+        "Ekstrak Ikan Gabus"
+      ],
+      "stock": 0,
+      "status": "Out of Stock",
+      "variations": [
+        {
+          "size": "60 kapsul",
+          "price": 45000
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Prima Kutuk",
+      "category": "Albumin/Kutuk",
+      "description": "Ekstrak daun Binahong (Anredera cordifolia) yang telah lama dipercaya sebagai tanaman obat keluarga (TOGA). Memiliki khasiat anti-inflamasi dan antioksidan yang kuat. Sangat baik untuk mempercepat pengeringan luka luar maupun dalam, mengatasi memar, ambeien, serta membantu meringankan gejala asam urat dan reumatik.",
+      "price": 45000,
+      "rating": 4.6,
+      "reviews": 92,
+      "image": "/products/capsule.png",
+      "tags": [
+        "Herbal Tradisional"
+      ],
+      "ingredients": [
+        "Binahong"
+      ],
+      "stock": 0,
+      "status": "Out of Stock",
+      "variations": [
+        {
+          "size": "60 Kapsul",
+          "price": 45000
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Pro Albumin",
+      "category": "Albumin/Kutuk",
+      "description": "Kapsul ekstrak Ikan Gabus terstandarisasi. Pro Albumin merupakan solusi praktis bagi penderita penyakit kronis yang membutuhkan asupan protein tinggi untuk menjaga kestabilan cairan tubuh. Membantu mengurangi edema (pembengkakan) pada penderita gagal ginjal ringan dan sirosis hati.",
+      "price": 45000,
+      "rating": 4.7,
+      "reviews": 175,
+      "image": "/products/capsule.png",
+      "tags": [],
+      "ingredients": [
+        "Ekstrak Ikan Gabus"
+      ],
+      "stock": 8,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "50 kapsul",
+          "price": 45000
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Susu Gomars",
+      "category": "Susu",
+      "description": "Varian premium dari kombinasi Habbatussauda, Madu, Zaitun, dan Propolis Trigona. Diolah dengan teknologi modern untuk menghasilkan ekstrak cair dalam kapsul (softgel) sehingga lebih mudah diserap oleh tubuh. Solusi lengkap untuk detoksifikasi racun, menormalkan tekanan darah, dan meningkatkan vitalitas.",
+      "price": 25000,
+      "rating": 4.9,
+      "reviews": 310,
+      "image": "/products/capsule.png",
+      "tags": [
+        "Premium"
+      ],
+      "ingredients": [
+        "Habbatussauda",
+        "Propolis",
+        "Zaitun",
+        "Madu"
+      ],
+      "stock": 7,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "200 gram",
+          "price": 25000
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Thermometer",
+      "category": "alkes",
+      "description": "Minyak balur ajaib asli Bali yang diramu dari 69 jenis tanaman herbal berkhasiat. Bekerja dengan cara mengaktifkan energi penyembuhan alami tubuh (Chi/Prana). Sangat efektif untuk mengatasi pegal linu, asam urat, gangguan pencernaan, sakit kepala, hingga insomnia. Aman untuk bayi hingga lansia.",
+      "price": 14000,
+      "rating": 5,
+      "reviews": 890,
+      "image": "/products/syrup.png",
+      "tags": [
+        "Terlaris",
+        "Premium"
+      ],
+      "ingredients": [
+        "69 Tanaman Herbal"
+      ],
+      "stock": 10,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "1",
+          "price": 14000
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Vision 21",
+      "category": "Herbal",
+      "description": "Perpaduan sinergis dua herbal pengobatan sunnah: Habbatussauda (Jintan Hitam) dan Propolis dari lebah Trigona. Formulasi ini menciptakan pelindung ganda untuk sistem imun tubuh. Sangat baik dikonsumsi rutin untuk menangkal virus, mengobati asma, alergi, dan menjaga stamina tubuh agar tidak mudah lelah.",
+      "price": 55000,
+      "rating": 4.7,
+      "reviews": 240,
+      "image": "/products/capsule.png",
+      "tags": [
+        "Sunnah"
+      ],
+      "ingredients": [
+        "Habbatussauda",
+        "Propolis"
+      ],
+      "stock": 1,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "60 kapsul",
+          "price": 55000
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Zaitun Rumman",
+      "category": "Zaitun",
+      "description": "Produk berkualitas Zaitun Rumman dari kategori Zaitun.",
+      "price": 17000,
+      "rating": 4.3,
+      "reviews": 8,
+      "image": "/products/capsule.png",
+      "tags": [
+        "Populer"
+      ],
+      "ingredients": [],
+      "stock": 15,
+      "status": "In Stock",
+      "variations": [
+        {
+          "size": "80 ml",
+          "price": 17000
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "VCO"
+    },
+    {
+      "id": 2,
+      "name": "Albumin/Kutuk"
+    },
+    {
+      "id": 3,
+      "name": "Herbal"
+    },
+    {
+      "id": 4,
+      "name": "Vitamin"
+    },
+    {
+      "id": 5,
+      "name": "Habbatusauda"
+    },
+    {
+      "id": 6,
+      "name": "Oil"
+    },
+    {
+      "id": 7,
+      "name": "Susu"
+    },
+    {
+      "id": 8,
+      "name": "alkes"
+    },
+    {
+      "id": 9,
+      "name": "Zaitun"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "Madu"
+    },
+    {
+      "id": 2,
+      "name": "Jahe"
+    },
+    {
+      "id": 3,
+      "name": "Kunyit"
+    },
+    {
+      "id": 4,
+      "name": "Echinacea"
+    },
+    {
+      "id": 5,
+      "name": "Lavender"
+    },
+    {
+      "id": 6,
+      "name": "Calendula"
+    },
+    {
+      "id": 7,
+      "name": "VCO"
+    },
+    {
+      "id": 8,
+      "name": "Ekstrak Ikan Gabus"
+    },
+    {
+      "id": 9,
+      "name": "Binahong"
+    },
+    {
+      "id": 10,
+      "name": "Mint"
+    },
+    {
+      "id": 11,
+      "name": "Daun Katuk"
+    },
+    {
+      "id": 12,
+      "name": "Teripang Emas"
+    },
+    {
+      "id": 13,
+      "name": "Habbatussauda"
+    },
+    {
+      "id": 14,
+      "name": "Propolis"
+    },
+    {
+      "id": 15,
+      "name": "Angkak"
+    },
+    {
+      "id": 16,
+      "name": "Bilberry"
+    },
+    {
+      "id": 17,
+      "name": "69 Tanaman Herbal"
+    },
+    {
+      "id": 18,
+      "name": "Susu Kambing Etawa"
+    },
+    {
+      "id": 19,
+      "name": "Zaitun"
+    },
+    {
+      "id": 20,
+      "name": "Wortel"
+    },
+    {
+      "id": 21,
+      "name": "Lutein"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "5 Ramuan Tradisional untuk Meningkatkan Imunitas di Musim Hujan",
+      "excerpt": "Musim hujan seringkali membawa berbagai penyakit. Pelajari bagaimana jahe, kunyit, dan temulawak dapat membantu menjaga daya tahan tubuh Anda.",
+      "category": "Tips Kesehatan",
+      "author": "Dr. Herbalis",
+      "date": "20 Mei 2024",
+      "image": "https://images.unsplash.com/photo-1544145945-f904253d0c71?auto=format&fit=crop&q=80&w=800",
+      "status": "Published",
+      "content": "Isi lengkap artikel tentang ramuan tradisional...",
+      "gallery": ["", "", ""]
+    },
+    {
+      "id": 2,
+      "title": "Mengenal Khasiat Ajaib Madu Hutan Liar",
+      "excerpt": "Madu hutan liar memiliki kandungan nutrisi yang jauh lebih tinggi dibanding madu ternak. Simak ulasan lengkap mengenai enzim dan mineral di dalamnya.",
+      "category": "Pengetahuan Bahan",
+      "author": "Budi Santoso",
+      "date": "18 Mei 2024",
+      "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&q=80&w=800",
+      "status": "Published",
+      "content": "Isi lengkap artikel tentang madu hutan...",
+      "gallery": ["", "", ""]
+    }
+  ]
+}

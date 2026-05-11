@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview Update Harga - Surya Herbal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #10b981;
+            --primary-dark: #059669;
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --text: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #fbbf24;
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            width: 100%;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #10b981, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            background: rgba(16, 185, 129, 0.2);
+            color: var(--primary);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+
+        .notice {
+            background: rgba(251, 191, 36, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .notice strong { color: var(--accent); }
+
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        th {
+            background: rgba(15, 23, 42, 0.5);
+            padding: 16px;
+            text-align: left;
+            font-weight: 600;
+            color: var(--text-muted);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        td {
+            padding: 16px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        tr:last-child td { border-bottom: none; }
+        tr:hover td { background: rgba(255, 255, 255, 0.02); }
+
+        .price {
+            font-family: monospace;
+            font-size: 1.1rem;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .stock-pill {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-sync {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 24px;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s;
+            box-shadow: 0 4px 14px 0 rgba(16, 185, 129, 0.39);
+        }
+
+        .btn-sync:hover {
+            background: var(--primary-dark);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <span class="badge">SINKRONISASI DATA</span>
+            <h1>Pratinjau Hasil Update Harga</h1>
+            <p style="color: var(--text-muted)">Data ini dibaca langsung dari file <code>db.json</code></p>
+        </header>
+
+        <div class="notice">
+            <strong>ℹ️ Mengapa harga di website belum berubah?</strong><br>
+            Website Anda menggunakan database <strong>PostgreSQL</strong>. Sinkronisasi dari Excel baru memperbarui file <code>db.json</code>. Anda perlu menjalankan perintah <code>npm run seed</code> di terminal agar data di PostgreSQL ikut terupdate.
+        </div>
+
+        <table id="productTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nama Produk</th>
+                    <th>Kategori</th>
+                    <th>Harga Baru</th>
+                    <th>Stok</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- Data akan dimasukkan lewat JS -->
+                <tr><td colspan="5" style="text-align:center">Memuat data...</td></tr>
+            </tbody>
+        </table>
+
+        <div style="text-align: center;">
+            <p style="margin-top: 40px; font-size: 0.9rem; color: var(--text-muted)">
+                Untuk menerapkan perubahan ini ke website, jalankan perintah berikut di terminal:
+            </p>
+            <code style="background: #000; padding: 10px 20px; border-radius: 5px; color: #10b981; display: inline-block;">npm run seed</code>
+        </div>
+    </div>
+
+    <script>
+        // Mencoba mengambil data dari db.json
+        // Catatan: Ini hanya bekerja jika dibuka melalui server lokal atau jika CORS diizinkan
+        // Karena ini dijalankan di lingkungan lokal user, kita akan menyuntikkan data secara statis atau fetch
+        fetch('db.json')
+            .then(response => response.json())
+            .then(data => {
+                const tbody = document.getElementById('tableBody');
+                tbody.innerHTML = '';
+                
+                data.products.forEach(p => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td style="color: var(--text-muted)">${p.id}</td>
+                        <td style="font-weight: 600">${p.name}</td>
+                        <td><span class="stock-pill" style="opacity: 0.7">${p.category}</span></td>
+                        <td class="price">Rp ${p.price.toLocaleString('id-ID')}</td>
+                        <td><span class="stock-pill">${p.stock}</span></td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+            })
+            .catch(err => {
+                document.getElementById('tableBody').innerHTML = `
+                    <tr><td colspan="5" style="text-align:center; color: #ef4444">
+                        Gagal memuat db.json. Pastikan file ini berada dalam folder yang sama dengan project.<br>
+                        (Atau jalankan perintah 'npm run seed' untuk langsung melihat di UI utama)
+                    </td></tr>
+                `;
+                console.error(err);
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surya Herbal | Premium UI Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#154212',
+                        secondary: '#725a39',
+                        background: '#fafaf5',
+                        'surface-container-low': '#f4f4ef',
+                    },
+                    fontFamily: {
+                        sans: ['Manrope', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #fafaf5;
+            font-family: 'Manrope', sans-serif;
+            position: relative;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            opacity: 0.05;
+            background-image: url('public/bg-herbal.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .botanical-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0c2 10 10 20 20 20s-10 10-20 20-20-10-20-20 10-10 20-20z' fill='%232d5a27' fill-opacity='0.03' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body class="antialiased botanical-pattern">
+    <!-- Navbar Preview -->
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <div class="w-12 h-12 bg-primary rounded-xl flex items-center justify-center text-white font-bold text-xl">SH</div>
+                <span class="text-2xl font-display font-black text-primary">Surya Herbal</span>
+            </div>
+            <div class="hidden md:flex gap-8 font-bold text-sm text-gray-600">
+                <a href="#" class="text-primary">Beranda</a>
+                <a href="#">Katalog</a>
+                <a href="#">Edukasi</a>
+                <a href="#">Kontak</a>
+            </div>
+            <div class="flex gap-4">
+                <button onclick="document.documentElement.classList.toggle('dark')" class="p-2 bg-gray-100 rounded-full">🌓</button>
+                <button class="bg-primary text-white px-6 py-2 rounded-xl font-bold shadow-lg shadow-primary/20 hover:scale-105 transition-all">Pesan Sekarang</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-6 py-20 space-y-32">
+        <!-- Hero Section -->
+        <section class="relative overflow-hidden rounded-[3rem] bg-surface-container-low p-12 md:p-24 border border-gray-200 shadow-2xl">
+            <!-- Floating Leaf Decor -->
+            <div class="absolute top-10 -right-20 w-80 h-80 opacity-5 pointer-events-none animate-float">
+                <svg viewBox="0 0 24 24" fill="currentColor" class="text-primary rotate-[120deg]"><path d="M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8,20C19,20 22,3 22,3C21,5 14,5.25 9,6.25C8,6.45 7,6.7 6,7L5,10C5,10 10.85,7.5 17,8Z"/></svg>
+            </div>
+
+            <div class="max-w-3xl relative z-10 space-y-8">
+                <div class="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-primary text-xs font-black uppercase tracking-widest">
+                    ✨ Ensiklopedia Botani Terpercaya
+                </div>
+                <h1 class="text-6xl md:text-8xl font-display font-black leading-[1.1] text-gray-900">
+                    Menemukan <span class="text-primary italic">Kebaikan Alam</span> dalam Setiap Helai
+                </h1>
+                <p class="text-xl text-gray-600 leading-relaxed max-w-xl">
+                    Jelajahi katalog herbal terstruktur kami yang menggabungkan kebijaksanaan tradisional dengan penelitian ilmiah modern.
+                </p>
+                <div class="flex gap-4 pt-4">
+                    <button class="bg-primary text-white px-10 py-5 rounded-2xl font-black text-lg shadow-2xl shadow-primary/30 hover:-translate-y-1 transition-all">Lihat Katalog</button>
+                    <button class="bg-white border border-gray-200 px-10 py-5 rounded-2xl font-black text-lg hover:bg-gray-50 transition-all">Pelajari Lebih Lanjut</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Grid -->
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="glass-card p-10 rounded-[2.5rem] space-y-6">
+                <div class="w-14 h-14 bg-primary text-white rounded-2xl flex items-center justify-center text-2xl shadow-lg">🌿</div>
+                <h3 class="text-2xl font-display font-bold">100% Organik</h3>
+                <p class="text-gray-600 leading-relaxed">Bahan pilihan yang diproses secara etis dari perkebunan terbaik di Indonesia.</p>
+            </div>
+            <div class="glass-card p-10 rounded-[2.5rem] space-y-6">
+                <div class="w-14 h-14 bg-secondary text-white rounded-2xl flex items-center justify-center text-2xl shadow-lg">🔬</div>
+                <h3 class="text-2xl font-display font-bold">Teruji Ilmiah</h3>
+                <p class="text-gray-600 leading-relaxed">Setiap ramuan didukung oleh data penelitian botani dan farmakologi terbaru.</p>
+            </div>
+            <div class="glass-card p-10 rounded-[2.5rem] space-y-6">
+                <div class="w-14 h-14 bg-green-900 text-white rounded-2xl flex items-center justify-center text-2xl shadow-lg">🛡️</div>
+                <h3 class="text-2xl font-display font-bold">Panduan Aman</h3>
+                <p class="text-gray-600 leading-relaxed">Dosis yang tepat dan peringatan keamanan untuk memastikan kesehatan Anda tetap terjaga.</p>
+            </div>
+        </section>
+
+        <!-- Product Preview -->
+        <section class="space-y-12">
+            <h2 class="text-4xl font-display font-black text-center text-gray-900">Rekomendasi <span class="text-primary italic">Smart Selection</span></h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all group">
+                    <div class="aspect-square bg-gray-100 overflow-hidden">
+                        <img src="public/bg-herbal.png" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700" alt="Product">
+                    </div>
+                    <div class="p-6 space-y-2">
+                        <span class="text-[10px] font-black text-primary uppercase tracking-[0.2em]">Suplemen Vitalitas</span>
+                        <h4 class="text-xl font-bold">Ekstrak Akar Jahe</h4>
+                        <p class="text-primary font-black">Rp 150.000</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all group">
+                    <div class="aspect-square bg-gray-100 overflow-hidden">
+                        <img src="public/bg-herbal.png" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-700" alt="Product">
+                    </div>
+                    <div class="p-6 space-y-2">
+                        <span class="text-[10px] font-black text-primary uppercase tracking-[0.2em]">Detoks Alami</span>
+                        <h4 class="text-xl font-bold">Teh Kunyit Putih</h4>
+                        <p class="text-primary font-black">Rp 125.000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary text-white py-20 px-6 text-center">
+        <h2 class="text-4xl font-display font-black mb-6">Surya Herbal</h2>
+        <p class="opacity-70 max-w-xl mx-auto">Membawa kebijaksanaan alam ke dalam genggaman Anda. Dibangun dengan cinta untuk kesehatan Indonesia.</p>
+        <div class="mt-12 opacity-40 text-sm">© 2026 Surya Herbal Premium Catalog</div>
+    </footer>
+</body>
+</html>
